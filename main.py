@@ -82,6 +82,10 @@ async def embor(ctx: commands.Context):
     emb3.set_footer(text=ctx.author.display_name)
     await ctx.send(content=ctx.guild.categories ,embed=emb3)
 
+@client.command()
+async def very_much(ctx):
+    await ctx.send(f"haha bot brrr {round(client.latency * 1000)}ms")
+
 @client.tree.command()
 async def testor(interaction: discord.Interaction):
     """ test for slash commands """
