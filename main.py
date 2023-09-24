@@ -18,7 +18,7 @@ class Client(commands.Bot):
         for extension in os.listdir('./cogs'):
             if extension.endswith('.py'):
                 await client.load_extension(f'cogs.{extension[:-3]}')
-                print(f"{extension} has been loaded!")
+                print(f"{extension} has been loaded.")
         
     async def on_ready(self):
         synced = await client.tree.sync()
