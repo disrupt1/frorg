@@ -36,7 +36,7 @@ async def sync(ctx: commands.Context):
         await client.tree.sync()
         await ctx.reply("slash commands synced")
     else:
-        await ctx.send("only the owner of the bot can access this command")
+        await ctx.send("Only the owner of the bot can access this command.")
         
 @client.tree.context_menu(name="Mute member")
 async def mute(interaction: discord.Interaction, member: discord.Member):
