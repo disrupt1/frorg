@@ -1,3 +1,4 @@
+# yea boi
 import discord
 import os
 from cogs.ticket import *
