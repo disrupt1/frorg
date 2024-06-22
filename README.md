@@ -1,3 +1,2 @@
 # rainbow frorg
-
-## random ass bot i made
+random ass bot i made
